@@ -4,6 +4,9 @@
 :root{color-scheme:dark}
 body{margin:0;background:#120f1c;color:#e9e4f2;font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
 main{max-width:760px;margin:0 auto;padding:32px 20px 64px}
+.code{font:700 40px/1.2 ui-monospace,Menlo,monospace;letter-spacing:.2em;color:#f2c46b;margin:8px 0 0}
+.button{display:inline-block;background:#f2c46b;color:#1a1406;padding:12px 22px;border-radius:999px;text-decoration:none;font-weight:700}
+.muted{color:#b9b0cc;font-size:14px}
 h1{font-family:Georgia,serif;letter-spacing:.06em;color:#f3c76b;margin:.2em 0}
 h2{font-family:Georgia,serif;color:#f3c76b;border-top:1px solid #3a3150;padding-top:28px;margin-top:40px}
 h3{color:#f3c76b;font-size:1.05em;margin-top:1.6em}
@@ -43,6 +46,8 @@ footer{margin-top:48px;color:#a79fb8;font-size:.9em;border-top:1px solid #3a3150
 <li>Your duel opponent sees your display name and your moves.</li>
 <li>Our infrastructure provider Supabase (database and sign-in) stores the information on our behalf. We do not sell your information.</li>
 </ul>
+<h3>Notifications</h3>
+<p>If you turn on notifications (signed-in players only), your device&#x27;s notification token, language and time zone are stored so we can send a daily reminder at 7 pm on days you have not solved the puzzle, and news when someone overtakes you in a challenge. Messages are delivered by Google Firebase Cloud Messaging (and Apple Push Notification service on iPhone). Turning notifications off in Settings, signing out or deleting your account removes the token.</p>
 <h3>Ads</h3>
 <p>The game is supported by ads. When ads are shown, Google AdMob may process information such as your device&#x27;s advertising identifier, with your consent and under its own policy. You can change your ad choices in the game&#x27;s &quot;Privacy and ads&quot; section.</p>
 <h3>Retention and deletion</h3>
@@ -87,6 +92,8 @@ footer{margin-top:48px;color:#a79fb8;font-size:.9em;border-top:1px solid #3a3150
 <li>Düello rakibin görünen adını ve hamlelerini görür.</li>
 <li>Altyapı hizmet sağlayıcımız Supabase (veritabanı ve oturum açma) bilgileri bizim adımıza saklar. Bilgilerini satmayız.</li>
 </ul>
+<h3>Bildirimler</h3>
+<p>Bildirimleri açarsan (yalnızca giriş yapmış oyuncular) cihazının bildirim kimliği, dili ve saat dilimi saklanır. Böylece bulmacayı çözmediğin günler akşam 19:00&#x27;da hatırlatma, meydan okumada biri seni geçtiğinde de haber gönderebiliriz. Mesajları Google Firebase Cloud Messaging (iPhone&#x27;da Apple Push Notification service) iletir. Ayarlar&#x27;dan bildirimleri kapatmak, çıkış yapmak ya da hesabı silmek bu kimliği siler.</p>
 <h3>Reklamlar</h3>
 <p>Oyun reklamlarla desteklenir. Reklamlar gösterildiğinde Google AdMob, cihazının reklam kimliği gibi bilgileri izninle ve kendi politikasına göre işleyebilir. Reklam izinlerini oyundaki &quot;Gizlilik ve reklamlar&quot; bölümünden değiştirebilirsin.</p>
 <h3>Saklama ve silme</h3>
@@ -131,6 +138,8 @@ footer{margin-top:48px;color:#a79fb8;font-size:.9em;border-top:1px solid #3a3150
 <li>Tu rival en un duelo ve tu nombre visible y tus jugadas.</li>
 <li>Nuestro proveedor de infraestructura, Supabase (base de datos e inicio de sesión), guarda la información en nuestro nombre. No vendemos tu información.</li>
 </ul>
+<h3>Notificaciones</h3>
+<p>Si activas las notificaciones (solo jugadores con sesión iniciada), se guardan el identificador de notificaciones de tu dispositivo, el idioma y la zona horaria para enviarte un recordatorio a las 19:00 los días que no hayas resuelto el puzle y avisos cuando alguien te supere en un desafío. Los mensajes los entrega Google Firebase Cloud Messaging (y Apple Push Notification service en iPhone). Desactivar las notificaciones en Ajustes, cerrar sesión o eliminar tu cuenta borra el identificador.</p>
 <h3>Anuncios</h3>
 <p>El juego se financia con anuncios. Cuando se muestran anuncios, Google AdMob puede procesar información como el identificador de publicidad de tu dispositivo, con tu consentimiento y según su propia política. Puedes cambiar tus preferencias en la sección &quot;Privacidad y anuncios&quot; del juego.</p>
 <h3>Conservación y eliminación</h3>
