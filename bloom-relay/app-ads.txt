@@ -1,0 +1,3 @@
+# Bloom Relay verified AdMob seller. Merge with the HOST ROOT /app-ads.txt; preserve existing seller records.
+google.com, pub-7576086400351447, DIRECT, f08c47fec0942fa0
+# Existing Unity authorized seller lines are maintained at https://evrenayan.github.io/app-ads.txt.
